@@ -16,6 +16,7 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 
+#exercise
 @app.route("/1006")
 def page():
     return render_template("1006.html")
